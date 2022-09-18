@@ -1,0 +1,1 @@
+class Calculos{constructor(){throw new Error("Não é possível criar uma nova instância desta classe.")}static jurosSimples(s,o,r){return s*o*r}static jurosComposto(s,o,r){return s*Math.pow(1+o,r)}}export{Calculos};
